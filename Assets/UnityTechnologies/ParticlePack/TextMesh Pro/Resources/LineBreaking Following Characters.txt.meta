@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: edd590b57193b714d8407adc9dbc879e
+timeCreated: 1425440388
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 127325
+  packageName: Particle Pack
+  packageVersion: 3.1
+  assetPath: Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Resources/LineBreaking
+    Following Characters.txt
+  uploadId: 691001
