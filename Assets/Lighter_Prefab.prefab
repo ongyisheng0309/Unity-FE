@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 1549348232498171919}
   - component: {fileID: 6763404143649340343}
   - component: {fileID: 4932227020705743444}
+  - component: {fileID: 5126683251635564051}
   m_Layer: 0
   m_Name: Lighter_Prefab
   m_TagString: Spark
@@ -404,6 +405,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &5126683251635564051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3061980068979823191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea000f64ec6f6ce42a09bbdd90cf5e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePrefab: {fileID: 0}
+  firePoint: {fileID: 0}
 --- !u!1 &6705562870802375585
 GameObject:
   m_ObjectHideFlags: 0
