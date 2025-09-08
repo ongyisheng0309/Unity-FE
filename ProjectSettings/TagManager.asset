@@ -6,6 +6,9 @@ TagManager:
   tags:
   - ExtinguisherFoam
   - Spark
+  - ExtinguisherSmoke
+  - Door
+  - Fire
   layers:
   - Default
   - TransparentFX

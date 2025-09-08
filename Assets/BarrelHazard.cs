@@ -17,7 +17,7 @@ public class BarrelHazard : MonoBehaviour
         
         if (other.CompareTag("Spark")) // lighter must have the Spark tag
         {
-            Debug.Log("🔥 Barrel ignited by Spark!");
+            Debug.Log("ðŸ”¥ Barrel ignited by Spark!");
             
             // Spawn fire
             spawnedFire = Instantiate(firePrefab, firePoint.position, Quaternion.identity);
@@ -29,7 +29,7 @@ public class BarrelHazard : MonoBehaviour
             {
                 // Just register the fire GameObject directly
                 testManager.RegisterNewFire(spawnedFire.GetComponent<FireObject>());
-                Debug.Log("✅ Fire registered with TestManager");
+                Debug.Log("âœ… Fire registered with TestManager");
             }
             
             hasIgnited = true;
